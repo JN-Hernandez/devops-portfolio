@@ -1,0 +1,46 @@
+# [ADR-01] Cloud Platform Decision
+
+## Status
+
+<!-- Choose from one of the following Status Types: -->
+<!-- Draft: ADR is currently being drafted -->
+<!-- Pending: ADR is ready to be reviewed -->
+<!-- Approved: ADR has been approved and is in effect -->
+<!-- Amended: ADR has been amnded from original publication -->
+<!-- Depreciated: ADR has been retired (is no longer in effect) -->
+
+Approved
+
+## Date
+
+<!-- Date of Last ADR Update -->
+
+2026-05-21
+
+## Author
+
+JN Hernández
+
+## Context
+
+<!-- Provide any context as to why this decision needed to be made and the people (First Last, Team) involved that sparked a need for a decision. -->
+
+For the DevOps portfolio to be launched, a cloud provider needed to be selected to run the portfolio site.
+
+## Decision
+
+<!-- State the decision clearly, including which party (parties) ultimately made the decision. -->
+
+AWS, JN Hernández
+
+<!-- Provide a quick paragraph detailing the reasons and rationale for the decision. -->
+
+AWS offers a free tier of cloud computing services which will significantly bring down the cost of hosting this project. AWS was also chosen as the initial cloud platform to host the DevOps portfolio site as the DevOps engineer, JN Hernández, has the most experience with this cloud provider. Future iterations of this project may include other cloud providers to showcase being able to translate this skillset across different cloud providers.
+
+## Consequences
+
+<!-- Describe any consequences that may arise from the decision.  This should include positive and negative consequences. -->
+
+By using AWS as the cloud provider for this project, deployments can be easily streamlined and automated. Monitoring can also be easily set up to ensure proper functionality, with alarms set up to detect issues.
+
+While AWS provides a lot of positives, there is the potential that this project grows so large that it starts incurring high expenses. Further review will need to be made as the project unfolds.
