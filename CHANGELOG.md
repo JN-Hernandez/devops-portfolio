@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Add Feature Request GitHub issue template
+- [[PR#6]](https://github.com/JN-Hernandez/devops-portfolio/pull/2) Add ADR Template and [ADR-01] Cloud Provider Decision
+- [[PR#2]](https://github.com/JN-Hernandez/devops-portfolio/pull/2) Add Feature Request GitHub issue template
 - CHANGELOG creation
 - README creation
