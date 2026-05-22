@@ -1,0 +1,52 @@
+# This file is based on the Feature Request template from [MMGIS] (https://github.com/NASA-AMMOS/MMGIS)
+# Licensed under the Apache License, Version 2.0 (the "License");
+# see the LICENSE file in this project for the full Apache 2.0 license text.
+
+name: New Feature Request Form
+description: Suggest a new feature to be implemented
+title: "[New Feature]: "
+labels: "enhancement"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > _Thanks for filing a new feature request, your time and effort is appreciated. Please answer the following:_
+  - type: dropdown
+    id: checked-for-duplicates
+    attributes:
+      label: Checked for Duplicates
+      description: Have you checked for duplicate feature requests?
+      multiple: false
+      options:
+        - "Yes - I've already checked"
+        - "No - I haven't checked"
+    validations:
+      required: yes
+  - type: dropdown
+    id: checked-alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered alternative solutions or workarounds to your feature request?
+      options:
+        - "Yes - and alternatives don't suffice"
+        - "No - I haven't considered"
+    validations:
+      required: yes
+  - type: textarea
+    id: related-problems
+    attributes:
+      label: Related Problems
+      description: Is your feature request related to any problems? Please link to any relevant issue tickets.
+      placeholder: Tell us the problems
+      value: "I'm frustrated when [...] happens as documented in issue-XYZ"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Feature Request
+      description: Please provide a clear and concise description of your request.
+      placeholder: Tell us what you want
+      value: "I need or want [...]"
+    validations:
+      required: true
