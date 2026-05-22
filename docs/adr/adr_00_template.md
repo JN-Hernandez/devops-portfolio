@@ -19,7 +19,7 @@ YYYY-MM-DD
 
 ## Author
 
-FirstName LastName, Team
+FirstName LastName (GitHub Username), Team, Company/Project
 
 ## Context
 
@@ -31,11 +31,13 @@ Context
 
 <!-- State the decision clearly, including which party (parties) ultimately made the decision. -->
 
-Decision
+Decision: Verdict
+
+Decision Maker: FirstName LastName
 
 <!-- Provide a quick paragraph detailing the reasons and rationale for the decision. -->
 
-Decision rationale
+A paragraph describing the decision rationale.
 
 ## Consequences
 
