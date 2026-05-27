@@ -1,10 +1,3 @@
-<!-- Types of GitHub supported Markup Notice Blocks: -->
-<!-- NOTE: General information or additional context -->
-<!-- TIP: Helpful suggestions or best practices -->
-<!-- IMPORTANT: Critical supplementary details or explanations -->
-<!-- WARNING: Important cautions or potential pitfalls -->
-<!-- CAUTION: Critical safety information or destructive actions -->
-
 # DevOps Portfolio
 
 A project designed to showcase a DevOps portfolio of public work.
