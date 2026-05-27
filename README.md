@@ -17,13 +17,13 @@ The AWS DevOps portfolio is a project designed to showcase expertise in CI/CD pi
 
 ## Dependencies and Prerequisites
 
-> [!IMPORTANT] Flesh this out as the project progresses.
-
-- AWS Account
+- AWS Organization with `Management` and `Organization Admin` member accounts
+  - See [[WorkPlan] AWS Account & Organization Setup](https://github.com/JN-Hernandez/devops-portfolio/issues/5#issuecomment-4559059148), if needed.
 
 ## Portfolio Preparation
 
-> [!NOTE] This section will outline any preparation steps users need to take in order to deploy their own DevOps Portfolio.
+> [!NOTE]
+> This section will outline any preparation steps users need to take in order to deploy their own DevOps Portfolio.
 
 1. Provide a step-by-step detailed process for how/where to download this program.
 2. Include any modifications needed to be made to files/folders.
@@ -31,7 +31,8 @@ The AWS DevOps portfolio is a project designed to showcase expertise in CI/CD pi
 
 ## Launching the Portfolio
 
-> [!NOTE] This section will outline how users will deploy their own DevOps Portfolio.
+> [!NOTE]
+> This section will outline how users will deploy their own DevOps Portfolio.
 
 1. Provide a step-by-step detailed process on how to run the program.
 2. Include any screenshots, as needed.
